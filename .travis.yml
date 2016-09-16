@@ -100,6 +100,10 @@ matrix:
     compiler: ": #stack 7.10.3 osx"
     os: osx
 
+  - env: BUILD=stack ARGS="--resolver lts-6"
+    compiler: ": #stack nightly osx"
+    os: osx
+
   - env: BUILD=stack ARGS="--resolver nightly"
     compiler: ": #stack nightly osx"
     os: osx
